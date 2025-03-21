@@ -1,0 +1,18 @@
+/* styles.css */
+
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  color: white;
+  border: 2px solid white; 
+  padding: 30px;            /* Increase space inside the box */
+  margin: 20px auto;        /* Center the box */
+  width: 400px; 
+
+}
+
+h1 {
+  color: white;
+  text-align: left;
+}
+
