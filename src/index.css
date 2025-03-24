@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #282D35;
+  color: white;
+
+}
+
+nav{
+  display:flex;
+  align-items: center;
+  height: 100%
+}
+
+header{
+  height: 90px;
+  background-color: #21222A;
+  padding: 30px 25px;
+}
+
+nav>img{
+  width: 40px;
+  margin-right: 7px;
+}
+
+nav>span{
+  color: #61DAFB;
+  font-size: 1.4rem;
+}
+
+main {
+  padding: 60px 30px;
+  background-image: 
+    linear-gradient(rgba(40, 45, 53, 0.7), rgba(40, 45, 53, 0.7)), 
+    url('/src/assets/react.svg'); /* Make sure this path is correct */
+  background-repeat: no-repeat;
+  background-size: 60vh auto; /* Increase size so half of it is cut off */
+  background-position: 120% center; /* Moves the image off-screen to show only half */
+  overflow: hidden;
+}
+
+
+
+main>h1{
+  margin:0; 
+  font-size: 2.4rem;
+}
+
+.facts-list{
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.facts-list>li{
+  padding-block: 10px;
+  line-height: 19px;
+}
+
+.facts-list > li::marker{
+  color: #61DAFB;
+  font-size: 1.5rem;
+}
+
